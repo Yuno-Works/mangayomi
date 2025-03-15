@@ -1,9 +1,10 @@
 name: Build & Release
 
 on:
-  push:
-    tags:
-      - v*
+  push:  # Startet bei jedem Push auf einen beliebigen Branch
+  pull_request:  # Optional: Startet auch bei Pull Requests
+  workflow_dispatch:  # Erlaubt das manuelle Starten über GitHub UI
+
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref_name }}
