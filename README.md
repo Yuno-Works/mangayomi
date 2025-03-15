@@ -1,7 +1,7 @@
 <p align="center">
  <img width=200px height=200px src="assets/app_icons/icon-red.png"/>
 </p>
-
+ 
 <h1 align="center"> Mangayomi </h1>
 
 <div align="center">
